@@ -43,7 +43,7 @@ Note that the toolbar is always hidden regardless of this setting."
   :group 'prelude
   :package-version '(prelude . "1.1"))
 
-(defcustom prelude-super-keybindings t
+(defcustom prelude-super-keybindings nil
   "Controls whether to use the Super key in keybindings.
 They can be problematic in some operating systems (e.g. Windows)
 or desktop environments that make heavy use of them."

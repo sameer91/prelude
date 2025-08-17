@@ -1,4 +1,5 @@
 *~
+.uptimes.el
 *.elc
 auto-save-list
 recentf

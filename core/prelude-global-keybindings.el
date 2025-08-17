@@ -51,10 +51,10 @@
 (global-set-key (kbd "C-x M") (lambda () (interactive) (eshell t)))
 
 ;; Start a regular shell if you prefer that.
-(global-set-key (kbd "C-x M-m") 'shell)
+;; (global-set-key (kbd "C-x M-m") 'shell)
 
 ;; If you want to be able to M-x without meta
-(global-set-key (kbd "C-x C-m") 'smex)
+;; (global-set-key (kbd "C-x C-m") 'smex)
 
 ;; A complementary binding to the apropos-command (C-h a)
 (define-key 'help-command "A" 'apropos)
@@ -98,15 +98,15 @@
 (global-set-key (kbd "C-=") 'er/expand-region)
 
 ;; recommended avy keybindings
-(global-set-key (kbd "C-:") 'avy-goto-char)
-(global-set-key (kbd "C-'") 'avy-goto-char-2)
-(global-set-key (kbd "M-g f") 'avy-goto-line)
+(global-set-key (kbd "C-:") 'avy-goto-char-timer)
+(global-set-key (kbd "C-'") 'avy-goto-char)
+;; (global-set-key (kbd "M-g f") 'avy-goto-line)
 (global-set-key (kbd "M-g w") 'avy-goto-word-1)
-(global-set-key (kbd "M-g e") 'avy-goto-word-0)
+;; (global-set-key (kbd "M-g e") 'avy-goto-word-0)
 
 ;; additional avy keybindings
-(global-set-key (kbd "s-,") 'avy-goto-char)
-(global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
+;; (global-set-key (kbd "s-,") 'avy-goto-char)
+;; (global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
 (global-set-key (kbd "C-c v") 'avy-goto-word-or-subword-1)
 
 ;; improved window navigation with ace-window
